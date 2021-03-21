@@ -1,5 +1,5 @@
 from mycroft import MycroftSkill, intent_file_handler
-
+import subprocess
 
 class Fortune(MycroftSkill):
     def __init__(self):
@@ -7,7 +7,8 @@ class Fortune(MycroftSkill):
 
     @intent_file_handler('fortune.intent')
     def handle_fortune(self, message):
-        self.speak_dialog('fortune')
+        result = subprocess.run("fortune", capture_output=True, text=True)
+        self.speak_dialog(result.stdout)
 
 
 def create_skill():
