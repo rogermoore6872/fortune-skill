@@ -1,5 +1,5 @@
-# <img src="https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/robot.svg" card_color="#22A7F0" width="50" height="50" style="vertical-align:bottom"/> Fortune
-Tells a fortune
+# <img src="https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/handsparkles.svg" card_color="#22A7F0" width="50" height="50" style="vertical-align:bottom"/> mycroft-fortune
+Mycroft skill that tells a fortune
 
 ## About
 Tells a fortune using the linux fortune program
@@ -16,5 +16,6 @@ rogermoore6872
 **Entertainment**
 
 ## Tags
+#Mycroft
 #Fortune
 
